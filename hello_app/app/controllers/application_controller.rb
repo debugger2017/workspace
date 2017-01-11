@@ -8,5 +8,9 @@ class ApplicationController < ActionController::Base
   def houla 
   	render html: "houla, mounda!"
   end
+
+  def non_ascii
+  	render html: "¡Hola, mundo!"
+  end
   
 end
