@@ -11,9 +11,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
                                          password_confirmation: "bar"
   			}}
   	end
-  	follow_redirect!
-    assert_template 'users/show'
-  	
   end
 
 end
