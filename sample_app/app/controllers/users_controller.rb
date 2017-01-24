@@ -7,6 +7,9 @@ class UsersController < ApplicationController
   	#debugger
   end
 
+  def index
+  end
+  
   def new
   	@user = User.new
   end
